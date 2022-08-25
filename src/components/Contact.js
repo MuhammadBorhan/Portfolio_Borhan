@@ -6,21 +6,22 @@ import { contact } from '../data';
 
 const Contact = () => {
   return (
-    <section className='section bg-primary' id='contact'>
+    <section className='section bg-primary opacity-80' id='contact'>
       <div className='container mx-auto'>
         <div className='flex flex-col items-center text-center'>
-          <h2 className='section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block'>
+          <h2 className='section-title'>
             Contact me
           </h2>
-          <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+          <p className='subtitle text-white'>
+            If you have any information please E-Mail me.<br />
+            or<br />
+            Phone: +8801402723759
           </p>
         </div>
         <div
-          className='flex flex-col lg:gap-x-8 lg:flex-row'
+          className='flex flex-col justify-center lg:gap-x-8 lg:flex-row'
         >
-          <div
+          {/* <div
             className='flex flex-1 flex-col items-start space-y-8 mb-12 lg:mb-0 lg:pt-2'
           >
             {contact.map((item, index) => {
@@ -38,9 +39,9 @@ const Contact = () => {
                 </div>
               );
             })}
-          </div>
+          </div> */}
           <form
-            className='space-y-8 w-full max-w-[780px]'
+            className='space-y-4 w-full max-w-[780px]'
           >
             <div className='flex gap-8'>
               <input className='input' type='text' placeholder='Your name' />
@@ -51,7 +52,7 @@ const Contact = () => {
               className='textarea'
               placeholder='Your message'
             ></textarea>
-            <button className='btn btn-lg bg-accent hover:bg-secondary-hover'>
+            <button className='btn btn-lg block mx-auto bg-green-700 hover:bg-blue-700'>
               Send message
             </button>
           </form>

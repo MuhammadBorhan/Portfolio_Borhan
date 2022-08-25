@@ -17,22 +17,17 @@ const Header = () => {
 
   return (
     <header
-      className={`${
-        bg ? 'bg-tertiary h-20' : 'h-24'
-      } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}
+      className={`${bg ? 'bg-slate-900 h-20' : 'h-20'
+        } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300`}
     >
       <div className='container mx-auto h-full flex items-center justify-between'>
         {/* logo */}
         <a href='#'>
-          <img src={Logo} alt='' />
+          <h1 className='text-4xl font-bold'><span>Borhan</span><span className='text-purple-600'>Uddin</span></h1>
         </a>
         {/* nav */}
         <div className='hidden lg:block'>
           <Nav />
-        </div>
-        {/* Socials */}
-        <div className='hidden lg:block'>
-          <Socials />
         </div>
         {/* nav mobile*/}
         <div className='lg:hidden'>

@@ -13,8 +13,7 @@ const Testimonials = () => {
             What other people say
           </h2>
           <p className='subtitle'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga veniam
-            labore nisium illum cupiditate reiciendis a numquam
+            As a MERN Stack developer, everyone needs to know about frontend and backend technology. Over 1 years I have been working hard on various frontend and backend technologies. I also created Website front-end design from PSD, Figma with HTML5, CSS3, JavaScript, React. I am also develop website backend with latest NodeJs, MongoDB and DaisyUi framework Technology. Below are links to some of the responsive sites I have created.
           </p>
         </div>
         <TestiSlider />

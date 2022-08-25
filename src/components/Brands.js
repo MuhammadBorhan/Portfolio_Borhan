@@ -9,10 +9,10 @@ const Brands = () => {
       <div
         className='container mx-auto flex md:justify-between items-center flex-wrap justify-evenly'
       >
-        {brands.map((brand, idx) => {
+        {brands.map((brand, index) => {
           return (
             <div
-              key={idx}
+              key={index}
             >
               <img src={brand.img} alt='' />
             </div>

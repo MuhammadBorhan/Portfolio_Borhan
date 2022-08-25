@@ -1,18 +1,7 @@
 //  icons
-import {
-  FiYoutube,
-  FiInstagram,
-  FiGithub,
-  FiDribbble,
-  FiLayout,
-  FiSettings,
-  FiPenTool,
-  FiTag,
-  FiMail,
-  FiMapPin,
-} from 'react-icons/fi';
+import { FiYoutube, FiLinkedin, FiFacebook, FiGithub, FiDribbble, FiLayout, FiSettings, FiPenTool, FiTag, FiMail, FiMapPin } from 'react-icons/fi';
 
-// companies icons
+// Brands icon
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
 import UpworkBrandIcon from './assets/img/brands/upwork.png';
 import FiverBrandIcon from './assets/img/brands/fiverr.png';
@@ -53,12 +42,12 @@ export const navigation = [
     href: 'about',
   },
   {
-    name: 'portfolio',
-    href: 'portfolio',
+    name: 'services',
+    href: 'services'
   },
   {
-    name: 'services',
-    href: 'services',
+    name: 'Projects',
+    href: 'portfolio',
   },
   {
     name: 'testimonials',
@@ -73,45 +62,40 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
-  },
-  {
-    icon: <FiInstagram />,
-    href: '',
+    icon: <FiFacebook />,
+    href: 'https://web.facebook.com/mdborhan.uddin.121',
   },
   {
     icon: <FiGithub />,
-    href: '',
+    href: 'https://github.com/muhammadBorhan/'
   },
   {
-    icon: <FiDribbble />,
-    href: '',
+    icon: <FiLinkedin />,
+    href: 'https://www.linkedin.com/in/mdborhanuddin-majumder-3a37a61a4/',
   },
+  {
+    icon: <FiYoutube />,
+    href: 'https://www.youtube.com/'
+  }
 ];
 
 // companies
 export const brands = [
   {
-    img: FreelancerBrandIcon,
-    href: '',
+    img: FreelancerBrandIcon
   },
   {
-    img: UpworkBrandIcon,
-    href: '',
+    img: UpworkBrandIcon
   },
   {
-    img: FiverBrandIcon,
-    href: '',
+    img: FiverBrandIcon
   },
   {
-    img: BehanceBrandIcon,
-    href: '',
+    img: BehanceBrandIcon
   },
   {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
+    img: DribbbleBrandIcon
+  }
 ];
 
 // projects
@@ -120,7 +104,7 @@ export const projectsData = [
     id: '1',
     image: Project1,
     name: 'project name 1',
-    category: 'UI/UX design',
+    category: 'Web design',
   },
   {
     id: '2',
@@ -160,14 +144,11 @@ export const projectsNav = [
     name: 'all',
   },
   {
-    name: 'UI/UX Design',
+    name: 'Web Design',
   },
   {
     name: 'web development',
-  },
-  {
-    name: 'branding',
-  },
+  }
 ];
 
 // skill
