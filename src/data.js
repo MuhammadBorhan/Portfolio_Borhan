@@ -10,12 +10,14 @@ import BehanceBrandIcon from './assets/img/brands/behance.png';
 import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
 
 // projects images
-import Project1 from './assets/img/projects/p1.webp';
-import Project2 from './assets/img/projects/p2.webp';
-import Project3 from './assets/img/projects/p3.webp';
-import Project4 from './assets/img/projects/p4.webp';
-import Project5 from './assets/img/projects/p5.webp';
-import Project6 from './assets/img/projects/p6.webp';
+import Project1 from './assets/img/projects/Capture1.PNG';
+import Project2 from './assets/img/projects/material.PNG';
+import Project3 from './assets/img/projects/laptop.PNG';
+import Project4 from './assets/img/projects/tutor.PNG';
+import Project5 from './assets/img/projects/rolex.PNG';
+import Project6 from './assets/img/projects/phone.PNG';
+import Project7 from './assets/img/projects/page.PNG';
+import Project8 from './assets/img/projects/responsive.PNG';
 
 // skills images
 import SkillImg1 from './assets/img/skills/html5.jpg';
@@ -107,38 +109,77 @@ export const projectsData = [
   {
     id: '1',
     image: Project1,
-    name: 'project name 1',
-    category: 'Web design',
+    name: 'Car Manufacture',
+    desc: 'Website of the essential parts of any car manufacturing company.',
+    live: 'https://glowing-conkies-fc5384.netlify.app/',
+    client: 'https://github.com/MuhammadBorhan/manufacturer-website-client-side-MuhammadBorhan',
+    server: 'https://github.com/MuhammadBorhan/manufacturer-website-server-side-MuhammadBorhan',
+    category: 'web development',
   },
   {
     id: '2',
     image: Project2,
-    name: 'project name 2',
+    name: 'Material Purchase',
+    desc: 'Website of the essential products purchase from vendors.',
+    live: 'https://cheery-baklava-f9168f.netlify.app/',
+    client: 'https://github.com/MuhammadBorhan/material-purchase-project',
+    server: 'https://github.com/MuhammadBorhan/material-purchase-server-side',
     category: 'web development',
   },
   {
     id: '3',
     image: Project3,
-    name: 'project name 3',
-    category: 'UI/UX design',
+    name: 'Laptop Warehouse',
+    desc: 'Website of the essential laptops stocked from supplier for sale.',
+    live: 'https://scintillating-quokka-d477fd.netlify.app/',
+    client: 'https://github.com/MuhammadBorhan/warehouse-management-client-side-MuhammadBorhan',
+    server: 'https://github.com/MuhammadBorhan/warehouse-management-server-side-MuhammadBorhan',
+    category: 'web development',
   },
   {
     id: '4',
     image: Project4,
-    name: 'project name 4',
-    category: 'branding',
+    name: 'Tutor Portland',
+    desc: 'Website of the essential products purchase from vendors.',
+    live: 'https://sparkly-travesseiro-3c9d55.netlify.app/',
+    client: 'https://github.com/programming-hero-web-course-4/independent-service-provider-MuhammadBorhan',
+    category: 'web development',
   },
   {
     id: '5',
     image: Project5,
-    name: 'project name 5',
+    name: 'RolexShop',
+    desc: 'Website of the essential products purchase from vendors.',
+    live: 'https://velvety-palmier-679f13.netlify.app/',
+    client: 'https://github.com/programming-hero-web-course-4/product-analysis-website-MuhammadBorhan',
     category: 'web development',
   },
   {
     id: '6',
     image: Project6,
-    name: 'project name 6',
-    category: 'web development',
+    name: 'PANACEA-SHOP.COM',
+    desc: 'Website of the essential products purchase from vendors.',
+    live: 'https://splendorous-sunburst-d213a0.netlify.app/',
+    client: 'https://github.com/Programming-Hero-Web-Course4/lucky-one-MuhammadBorhan',
+    category: 'Web design',
+  },
+  {
+    id: '7',
+    image: Project7,
+    name: 'Influential commodity',
+    desc: 'Website of the essential products purchase from vendors.',
+    live: 'https://muhammadborhan.github.io/My_Second_Assginment/',
+    client: 'https://github.com/MuhammadBorhan/My_Second_Assginment',
+    category: 'Web design',
+  },
+  {
+    id: '8',
+    image: Project8,
+    name: 'Charlotte Convention Center',
+    desc: 'Website of the essential products purchase from vendors.',
+    live: 'https://objective-mclean-51b05c.netlify.app/',
+    client: 'https://github.com/Porgramming-Hero-web-course/convention-center-MuhammadBorhan',
+    category: 'Web design',
   },
 ];
 

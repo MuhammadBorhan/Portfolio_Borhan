@@ -37,12 +37,9 @@ const Projects = () => {
           {projectsNav.map((item, index) => {
             return (
               <li
-                onClick={(e) => {
-                  handleClick(e, index);
-                }}
-                className={`${
-                  active === index ? 'active' : ''
-                } cursor-pointer capitalize m-4`}
+                onClick={(e) => { handleClick(e, index) }}
+                className={`${active === index ? 'active' : ''
+                  } cursor-pointer capitalize m-4`}
                 key={index}
               >
                 {item.name}
