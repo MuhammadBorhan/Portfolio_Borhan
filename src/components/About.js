@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 // import img
 import Image from '../assets/img/me.jpg';
@@ -18,7 +19,7 @@ const About = () => {
               <h2 className='text-3xl lg:text-4xl font-medium lg:font-extrabold mb-3'>
                 Md Borhan Uddin
               </h2>
-              <p className='mb-4 text-accent'>
+              <p className='mb-4 text-yellow-500'>
                 ReactJS Developer / MERN Stack Developer
               </p>
               <hr className='mb-8 opacity-5' />
@@ -27,8 +28,8 @@ const About = () => {
                 <br />I am prepared to contribute abilities while further developing acquired skills.
               </p>
             </div>
-            <button className='btn btn-md bg-accent hover:bg-secondary-hover transition-all'>
-              Contact me
+            <button className='btn btn-md bg-yellow-700'>
+              <Link to='contact' spy={true} smooth={true} duration={500}>Contact Me</Link>
             </button>
           </div>
         </div>

@@ -1,5 +1,5 @@
 //  icons
-import { FiYoutube, FiLinkedin, FiFacebook, FiGithub, AiFillBug, FiLayout, FiSettings, FiPenTool, FiMail, FiMapPin } from 'react-icons/fi';
+import { FiYoutube, FiLinkedin, FiFacebook, FiGithub, FiMail, FiMapPin } from 'react-icons/fi';
 import { FaArtstation, FaRegFileCode, FaRegCalendarPlus, FaBug } from 'react-icons/fa';
 
 // Brands icon
@@ -18,14 +18,13 @@ import Project5 from './assets/img/projects/p5.webp';
 import Project6 from './assets/img/projects/p6.webp';
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
+import SkillImg1 from './assets/img/skills/html5.jpg';
 import SkillImg2 from './assets/img/skills/css3.png';
 import SkillImg3 from './assets/img/skills/js.png';
 import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import SkillImg5 from './assets/img/skills/express.png';
+import SkillImg6 from './assets/img/skills/node.png';
+import SkillImg7 from './assets/img/skills/mpngodb.png';
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -41,6 +40,10 @@ export const navigation = [
   {
     name: 'about',
     href: 'about',
+  },
+  {
+    name: 'skill',
+    href: 'skill',
   },
   {
     name: 'services',
@@ -174,10 +177,7 @@ export const skills = [
   },
   {
     image: SkillImg7,
-  },
-  {
-    image: SkillImg8,
-  },
+  }
 ];
 
 // services

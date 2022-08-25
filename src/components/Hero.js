@@ -11,10 +11,10 @@ const Hero = () => {
   return (
     <section
       id='home'
-      className='lg:h-[85vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
+      className='lg:h-[100vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
     >
       <div className='container mx-auto h-full'>
-        <div className='flex items-center h-full pt-8'>
+        <div className='flex items-center h-full pt-2'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
             <p className='text-3xl text-indigo-500 text-md '>
               Hello, I'm Borhan
@@ -44,7 +44,7 @@ const Hero = () => {
                   <img className='w-8' src="https://emoji.gg/assets/emoji/7962_arrow_join.png" alt="" />
                 </span>
               </h2>
-              <a href="Borhan_Resume.pdf" download='Borhan_Resume.pdf'>
+              <a href="ResumeOfBorhan.pdf" download='ResumeOfBorhan.pdf'>
                 <button className=" rounded-full text-xl bg-white text-purple-700 p-2 font-bold">My Resume</button>
               </a>
             </div>
@@ -60,7 +60,7 @@ const Hero = () => {
               })}
             </div>
           </div>
-          <div className='hidden lg:flex flex-1 justify-end items-end h-full'>
+          <div className='hidden lg:flex flex-1 justify-end items-center h-full'>
             <img className='w-80 p-12' src={profile} alt='' />
           </div>
         </div>
