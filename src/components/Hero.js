@@ -34,7 +34,7 @@ const Hero = () => {
               </span>
             </h1>
             <p className=' md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left'>
-              Skill of building application with front and back end operations.
+              Skill of building application with Frontend and Backend operations.
             </p>
 
             <div className='flex items-center gap-2 mt-4 md:mt-[-20px]'>
@@ -45,7 +45,7 @@ const Hero = () => {
                 </span>
               </h2>
               <a href="Borhan_Resume.pdf" download='Borhan_Resume.pdf'>
-                <button className=" rounded-full text-xl bg-white text-purple-700 p-2 font-bold">Get Resume</button>
+                <button className=" rounded-full text-xl bg-white text-purple-700 p-2 font-bold">My Resume</button>
               </a>
             </div>
 
