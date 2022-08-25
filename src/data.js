@@ -1,5 +1,6 @@
 //  icons
-import { FiYoutube, FiLinkedin, FiFacebook, FiGithub, FiDribbble, FiLayout, FiSettings, FiPenTool, FiTag, FiMail, FiMapPin } from 'react-icons/fi';
+import { FiYoutube, FiLinkedin, FiFacebook, FiGithub, AiFillBug, FiLayout, FiSettings, FiPenTool, FiMail, FiMapPin } from 'react-icons/fi';
+import { FaArtstation, FaRegFileCode, FaRegCalendarPlus, FaBug } from 'react-icons/fa';
 
 // Brands icon
 import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
@@ -182,28 +183,28 @@ export const skills = [
 // services
 export const services = [
   {
-    icon: <FiLayout />,
+    icon: <FaArtstation />,
     name: 'Web Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'A beautiful responsive website you can design through me in a very short time. My previous experience in this regard is also good.',
   },
   {
-    icon: <FiSettings />,
+    icon: <FaRegFileCode />,
     name: 'Web Development',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'I can develop Web application very nicely using ReactJs and NodeJs you can create it through me if you want in a very short time.',
   },
   {
-    icon: <FiPenTool />,
-    name: 'Branding',
+    icon: <FaRegCalendarPlus />,
+    name: 'Website Re-Design',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "If your existing design isn't userfriendly or look like not so good so i can do it marvelous design in a very short time.",
   },
   {
-    icon: <FiTag />,
-    name: 'SEO',
+    icon: <FaBug />,
+    name: 'Website Bug Fixing',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      "If your website under too bugs and doesn't work properly, you can fix it through me if you want in a very short time.",
   },
 ];
 
