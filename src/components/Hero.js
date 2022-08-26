@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
+import './Hero.css'
 
 // import social data
 import { social } from '../data';
@@ -20,10 +21,10 @@ const Hero = () => {
       >
         <div className='flex items-center h-full pt-2'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
-            <p className='text-3xl text-indigo-500 text-md '>
+            <p className='text-2xl md:text-3xl text-indigo-500 '>
               Hello, I'm Borhan
             </p>
-            <h1 className='text-3xl mt-2 md:text-4xl font-bold'>
+            <h1 className='text-2xl mt-2 md:text-4xl font-bold'>
               <span style={{ color: 'yellow', fontWeight: 'bold' }}>
                 {/* Style will be inherited from the parent element */}
                 <Typewriter
@@ -49,7 +50,7 @@ const Hero = () => {
                 </span>
               </h2>
               <a href="ResumeOfBorhan.pdf" download='ResumeOfBorhan.pdf'>
-                <button className=" rounded-full text-xl bg-white text-purple-700 p-2 font-bold">My Resume</button>
+                <button className=" rounded text-xl hover:bg-orange-400 transition-all hover:translate-x-1 hover:text-white bg-gray-500 text-yellow-400 p-2 font-bold">Get Resume</button>
               </a>
             </div>
 
@@ -57,15 +58,18 @@ const Hero = () => {
               {social.map((item, index) => {
                 const { href, icon } = item;
                 return (
-                  <a className='text-white opacity-80 text-2xl mt-4 transition-all' target="_blank" href={href} key={index}>
+                  <a className='text-white hover:[transform:scale(1.7)] opacity-80 text-2xl mt-4 transition-all' target="_blank" href={href} key={index}>
                     {icon}
                   </a>
                 );
               })}
             </div>
           </div>
-          <div className='hidden lg:flex flex-1 justify-end items-center h-full'>
-            <img className='w-80 p-12' src={profile} alt='' />
+          <div className='hidden hero-profile lg:w-[380px] lg:h-[380px] lg:justify-center lg:ml-[300px] lg:flex flex-1 justify-end items-center h-full'>
+            <div className="profile-image hover:[transform:scale(1.1)] transition-all">
+
+            </div>
+            {/* <img className='w-80 p-12' src={profile} alt='' /> */}
           </div>
         </div>
       </div>

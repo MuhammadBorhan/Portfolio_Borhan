@@ -1,0 +1,20 @@
+.hero-profile {
+    /* width: 380px;
+    height: 380px; */
+    /* margin: 0 0px 0 300px; */
+    border-radius: 50%;
+    box-shadow: 0 1px 0px 0px white;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.profile-image {
+    height: 92%;
+    width: 92%;
+    background-image: url("../assets/img/profile.png");
+    background-size: cover;
+    background-position: center -100px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
