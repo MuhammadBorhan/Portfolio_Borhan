@@ -49,7 +49,7 @@ const Hero = () => {
                   <img className='w-8' src="https://emoji.gg/assets/emoji/7962_arrow_join.png" alt="" />
                 </span>
               </h2>
-              <a href="ResumeOfBorhan.pdf" download='ResumeOfBorhan.pdf'>
+              <a href="Resume_of_Borhan.pdf" download='Resume_of_Borhan.pdf'>
                 <button className=" rounded text-xl hover:bg-orange-400 transition-all hover:translate-x-1 hover:text-white bg-gray-500 text-yellow-400 p-2 font-bold">Get Resume</button>
               </a>
             </div>
