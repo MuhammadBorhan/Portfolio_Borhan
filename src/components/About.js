@@ -7,7 +7,11 @@ import Image from '../assets/img/me.jpg';
 const About = () => {
   return (
     <section className='section bg-secondary' id='about'>
-      <div className='container mx-auto'>
+      <div className='container mx-auto'
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="1000"
+      >
         <div className='flex items-center flex-col xl:flex-row gap-24'>
 
           <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>

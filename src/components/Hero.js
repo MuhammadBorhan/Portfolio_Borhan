@@ -13,7 +13,11 @@ const Hero = () => {
       id='home'
       className='lg:h-[100vh] flex items-center bg-primary lg:bg-cover lg:bg-center lg:bg-no-repeat py-32 lg:py-0 overflow-hidden'
     >
-      <div className='container mx-auto h-full'>
+      <div className='container mx-auto h-full'
+        data-aos="fade-down"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="1000"
+      >
         <div className='flex items-center h-full pt-2'>
           <div className='flex-1 flex flex-col items-center lg:items-start'>
             <p className='text-3xl text-indigo-500 text-md '>
@@ -49,7 +53,7 @@ const Hero = () => {
               </a>
             </div>
 
-            <div className='flex space-x-4 items-center justify-center'>
+            <div className='flex space-x-4 items-center mt-6 justify-center'>
               {social.map((item, index) => {
                 const { href, icon } = item;
                 return (

@@ -70,7 +70,11 @@ const Contact = () => {
               name='message'
               placeholder='Your message'
             ></textarea>
-            <button className='btn btn-lg block mx-auto bg-green-700 hover:bg-blue-700'>
+            <button className='btn btn-lg block mx-auto bg-green-700 hover:bg-blue-700'
+              data-aos="zoom-up"
+              data-aos-easing="ease-in-out"
+              data-aos-duration="500"
+            >
               Send message
             </button>
           </form>

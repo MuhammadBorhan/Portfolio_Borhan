@@ -6,7 +6,11 @@ import { services } from '../data';
 const Services = () => {
   return (
     <section id='services' className='section bg-tertiary'>
-      <div className='container mx-auto'>
+      <div className='container mx-auto'
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="1000"
+      >
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title capitalize mb-12'>
             My Services What I do for clients
