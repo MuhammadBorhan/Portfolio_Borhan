@@ -30,11 +30,7 @@ const Projects = () => {
   };
 
   return (
-    <div
-      data-aos="fade-up"
-      data-aos-easing="ease-in-out"
-      data-aos-duration="1000"
-    >
+    <div>
       {/* projects nav */}
       <nav className='mb-12 max-w-xl mx-auto'>
         <ul className='flex flex-col md:flex-row justify-evenly items-center text-white'>

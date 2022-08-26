@@ -23,7 +23,11 @@ const Contact = () => {
   };
   return (
     <section className='section bg-primary opacity-80' id='contact'>
-      <div className='container mx-auto'>
+      <div className='container mx-auto'
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="1000"
+      >
         <div className='flex flex-col items-center text-center'>
           <h2 className='section-title'>
             Contact me

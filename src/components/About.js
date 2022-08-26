@@ -28,7 +28,7 @@ const About = () => {
                 <br />I am prepared to contribute abilities while further developing acquired skills.
               </p>
             </div>
-            <button className='btn btn-md bg-yellow-700'>
+            <button className='btn btn-md bg-gray-500 hover:bg-orange-500 transition-all'>
               <Link to='contact' spy={true} smooth={true} duration={500}>Contact Me</Link>
             </button>
           </div>
