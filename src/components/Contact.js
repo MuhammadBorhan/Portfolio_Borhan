@@ -1,10 +1,26 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 // import contact data
 import { contact } from '../data';
 
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('borhan1981', 'template_ygcp3wa', form.current, '6et-Yqyy95kVOjeVJ')
+      .then((result) => {
+        toast.success('Email send successfully')
+      }, (error) => {
+        toast.error(error.message);
+      });
+    e.target.reset();
+  };
   return (
     <section className='section bg-primary opacity-80' id='contact'>
       <div className='container mx-auto'>
@@ -41,15 +57,17 @@ const Contact = () => {
             })}
           </div> */}
           <form
+            ref={form} onSubmit={sendEmail}
             className='space-y-4 w-full max-w-[780px]'
           >
             <div className='flex gap-8'>
-              <input className='input' type='text' placeholder='Your name' />
-              <input className='input' type='email' placeholder='Your email' />
+              <input className='input' type='text' name="clientName" placeholder='Your name' />
+              <input className='input' type='email' name="email" placeholder='Your email' />
             </div>
             <input className='input' type='text' placeholder='Subject' />
             <textarea
               className='textarea'
+              name='message'
               placeholder='Your message'
             ></textarea>
             <button className='btn btn-lg block mx-auto bg-green-700 hover:bg-blue-700'>
@@ -58,6 +76,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <ToastContainer />
     </section>
   );
 };
