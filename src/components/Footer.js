@@ -6,6 +6,9 @@ import { social } from '../data';
 // import logo
 import Logo from '../assets/img/logo.svg';
 
+// react scrool to top
+import ScrollToTop from "react-scroll-to-top";
+
 const Footer = () => {
   const date = new Date().getFullYear();
   return (
@@ -26,6 +29,9 @@ const Footer = () => {
             })}
           </div>
         </div>
+      </div>
+      <div>
+        <ScrollToTop smooth={false} top='500' width='40' height='24' color='red' style={{ backgroundColor: "yellow", font: "bold" }} />
       </div>
     </footer>
   );
